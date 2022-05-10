@@ -1,13 +1,66 @@
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-image: linear-gradient(
+    to bottom,
+    rgb(120, 205, 216),
+    rgb(231, 178, 224) 40%
+  );
+  height: 95vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.text1 {
+  font-size: 32px;
+  text-align: center;
+  text-shadow: 5px 5px rgb(4, 253, 253);
 }
+.text2{
+  border: 2px solid black;
+  border-radius: 25px;
+  height: 50px;
+  width: 330px;
+  text-align: center;
+  background-color: rgb(45, 105, 105);
+  margin-left: 350px;
+  margin-top: 50px;
+}
+.text2:hover {
+  background-color:aqua;
+}
+.text3 {
+  border: 2px solid black;
+  border-radius: 25px;
+  height: 50px;
+  background-color:rgb(45, 105, 105);
+  width: 330px;
+  text-align: center;
+  margin-left: 804px;
+  margin-top: 51px;
+  position: absolute;
+}
+.text3:hover {
+  background-color:aqua;
+}
+.box1{
+    border: 2px solid black;
+    border-radius: 25px;
+    height: 300px;
+    background-color: aqua;
+    width: 500px;
+    text-align: center;
+    margin-left: 73px;
+    margin-top: 100px;
+    position: absolute;
+  }
+  
+
+.box2{
+  border: 2px solid black;
+  border-radius: 25px;
+  height: 300px;
+  width: 490px;
+  text-align: center;
+  margin-left:800px;
+  margin-top: 200px;
+  position: absolute;
+  background-color: rgb(124, 27, 216);
+}
+
